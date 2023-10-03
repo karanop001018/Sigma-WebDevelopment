@@ -1,0 +1,41 @@
+<!-- QUICK QUIZ
+   Without using br tag, write a vertically alligned form asking for name, city and pincode of a user
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC FORM</title>
+</head>
+
+<body>
+    <h1>Basic Form</h1>
+    <form action="post">
+        <div>
+            <label for="Username">Enter your Name:</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your Name" autofocus>
+        </div>
+        <div>
+            <label for="City">Select your City:</label>
+            <select name="Cities">
+                <option value="Rajkot">Rajkot</option>
+                <option value="Bhavnagar">Bhavnagar</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Bharuch">Bharuch</option>
+                <option value="Anand">Anand</option>
+                <option value="Surat">Surat</option>
+                <option value="Vadodara">Vadodara</option>
+                <option value="Porbandar">Porbandar</option>
+            </select>
+        </div>
+        <div>
+            <label for="pincode">Enter Your Pin Code:</label>
+            <textarea name="Pincode" id="Pincode" rows="4" cols="10" rows="1"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
