@@ -3,7 +3,9 @@
 
 👨‍💻 Level : Beginners to Advance
 <br>
+<br>
 🛠️ Which topic will be covered?
+<br>
 <br>
 HTML, CSS, and JavaScript Basics
 Front-end and Back-end Development
@@ -11,7 +13,9 @@ Database Integration
 Real-world Projects
 And much more!
 <br>
+<br>
 Full Tutorial with Intractive Exersice
 using code
+<br>
 <br>
 Author - Karan Patel
