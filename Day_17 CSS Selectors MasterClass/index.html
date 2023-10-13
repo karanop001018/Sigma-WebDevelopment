@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors MasterClass</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: rebeccapurple;
+        }
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+        /* Id Selector */
+        #green{
+            background-color: green ;
+        }
+        /* Child Selector */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+        /* Descendent Selector */
+        article p{
+            color: greenyellow;
+            background-color: darkblue;
+        }
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        /* when cursor comes up show yellow color */
+        a:hover{
+            background-color: yellow;
+        }
+        /* color aqua where p is the first child of parent class */
+        p:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="red">
+        I am a div
+    </div>
+    <div>
+        I am another div
+    </div>
+    <div id="green">
+        Hi my name is Karan Patel
+        <p>I am child of div</p>
+        <article>
+            <p>
+                Hello
+            </p>
+        </article>
+    </div>
+    <div>
+        <a href="https://www.google.com">Go to GOOGLE</a>
+        <a href="https://www.facebook.com">Go to FACEBOOK</a>
+    </div>
+</body>
+</html>
