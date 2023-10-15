@@ -1,5 +1,6 @@
 # Sigma-WebDevelopment
-![490230](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/6ba5a687-6a9d-4911-adf0-cf99b4cf46b7)
+![_a40139d0-ff4c-45b2-9f87-261e0dcb2e65](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/abe6fe4b-6ecc-4a56-887b-d21cc768402c)
+
 
 👨‍💻 Level : Beginners to Advance
 <br>
