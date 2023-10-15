@@ -1,0 +1,45 @@
+/* Import "EB Garamond" from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+.ff-serif {
+  font-family: serif;
+}
+
+.ff-sans-serif {
+  font-family: sans-serif;
+}
+
+.ff-monospace {
+  font-family: monospace;
+}
+
+.ff-fallback-demo {
+  font-family: "Nonexistent-Font", monospace;
+}
+
+.ff-cursive {
+  font-family: cursive;
+}
+
+.ff-garamond {
+  font-family: "EB Garamond";
+}
+
+.label {
+  font-size: 0.4em;
+}
+
+h1:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.container {
+  text-align: left;
+}
+
+/* Decorative styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
