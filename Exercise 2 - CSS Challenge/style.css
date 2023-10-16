@@ -1,0 +1,15 @@
+h1{
+    color: orangered;
+}
+div{
+    color: white;
+    background-color: blue;
+}
+p:first-child{
+    color: red;
+    background-color: yellow;
+} 
+div:nth-child(2){
+    color: white;
+    background-color: blue;
+}
