@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+        /* It gives the color of the last mention style
+           In short it is overwritten */
+
+        /* The specificity of this selector is 1 */
+        h1{
+            color: aqua;
+        }
+
+        /* The specificity of this selector is h1(1) + .yellow(10) = h1.yellow(11) i.e., 1+10=11*/
+
+        /* So this is the max specificity here now thterefore yellow color wiil be in output instead it of overwritten */
+        h1.yellow{
+            color: yellow;
+        }
+
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color: yellow;
+        }
+
+        /* The specificity of this selector is 10 */
+        .cpurple{
+            color: purple;
+        }
+
+        /* The specificity of this selector is 10 */
+        .cred{
+            color: red;
+        }
+
+        /* This is example of attribute selector.The specificity of this selector is 10 */
+        /* USING ATTRIBUTE */
+        [data-x=a]{
+            background-color: goldenrod;
+        }
+        h2{
+            background-color: skyblue;
+            color: magenta !important;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- If there is an inline style then it will not even see the css file given above -->
+
+        <!-- <h1 style="color: blue;">CSS Specificity</h1>  -->
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+        <h2>Hey, there my name is Karan Patel</h2>
+    </div>
+</body>
+</html>
+
+<!-- Order of specificity:
+    Inline style > Id selector > Class or Attribute(example given above) Selector > Element Selector > Universal Selector(i.e., "*")-->
+
+<!-- If ther eis i,portant written anywhere then that style overwrite any of the other styles -->
+

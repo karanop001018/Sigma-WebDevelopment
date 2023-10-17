@@ -1,0 +1,9 @@
+Q: Find the specificity of the following
+a.karanclass.rohan-class[herf]: hover{
+    color: blueviolet;
+}
+
+Solution: a(1) + karanclass(10) + rohanclass(10) + href(10) + hover(10)
+          Therefore speficity = 41  
+
+NOTE: Don't use multiple selector try to make your website simpler not fancy
