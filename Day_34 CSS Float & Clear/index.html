@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        
+        img{
+            float:left;
+        }
+
+        .card{
+            border: 2px solid red;
+            color:rgb(96, 175, 17);
+            /* background-color: magenta; */
+        }
+
+        .card:nth-child(3){
+            /* background-color:burlywood; */
+            clear:left; /*Clears the mentioned side*/
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://gracethemes.com/wp-content/uploads/2018/05/How-Web-Development-Framework-Work-for-Business-Progress.png" alt="" width="230">
+        <div class="card">
+            <p>What is Web-Development</p>
+        </div>
+        <div class="card">Web development refers to the process of creating, building, and maintaining websites. It includes aspects such as web design, web publishing, web programming, and database management1. It can be classified into two main categories:
+            <br>
+            Frontend Development: This is the part of a website where the user interacts directly, also referred to as the ‘client side’ of the application1. It involves the use of technologies like:
+            <br>
+            HTML: HyperText Markup Language, used to design the front end portion of web pages using markup language1.
+            <br>
+            CSS: Cascading Style Sheets, used to style the website1.
+            <br>
+            JavaScript: A scripting language used to provide dynamic behavior to the website1.
+            Bootstrap: A free and open-source tool collection for creating responsive websites and web applications1.
+            <br>
+            Backend Development: This is the server side of a website, the part that users cannot see and interact with1. It is used to store and arrange data, and involves the use of technologies like:
+            <br>
+            PHP: A server-side scripting language designed specifically for web development1.
+            <br>
+            Java: A popular and widely used programming language that is highly scalable1.
+            <br>
+            Python: A programming language that lets you work quickly and integrate systems more efficiently1.
+            <br>
+            Node.js: An open source and cross-platform runtime environment for executing JavaScript code outside a browser1.
+            <br>
+            The process of web development also involves information gathering, planning, and design2. The goal is to create applications that work over the internet, i.e., websites</div>
+        <div class="card">Frontend Development: Html, CSS and JavaScript<br>
+            Backend Development: Python, SQL and APIs<br>
+            Additional Skills: Problem Solving, DSA, Version Control and Testing/Debugging.
+        </div>
+    </div>
+</body>
+</html>

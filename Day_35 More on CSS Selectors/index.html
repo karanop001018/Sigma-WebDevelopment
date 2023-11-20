@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /*
+    .box:first-child{
+            background-color: red;
+        }
+
+         .box::first-line{
+            color: yellow;
+        } 
+
+         .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        } 
+
+         .box:nth-child(odd){
+            background-color: blue;
+        } 
+
+         .box:nth-last-child(2){
+            background-color: red;
+        }
+*/
+        .boxes::before {
+            content: "Karan is good";
+            color: blue;
+        }
+
+        .boxes::after {
+            content: "This is the best course for Web Development";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: rgb(84, 84, 88);
+        }
+
+
+        .kp::first-line{
+            color: blue;
+        }
+        .kp::first-letter{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kp">Frontend Development: Html, CSS and JavaScript<br>
+        Backend Development: Python, SQL and APIs<br>
+        Additional Skills: Problem Solving, DSA, Version Control and Testing/Debugging.</div>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am first box</div>
+        <div class="box">Hey I am second box</div>
+        <div class="box">Hey I am third box</div>
+        <input type="text" placeholder="Enter your name here">
+    </div>
+</body>
+
+</html>
