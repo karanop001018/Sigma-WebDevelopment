@@ -23,7 +23,11 @@ So, what are you waiting for? Dive in and start your journey towards becoming a 
 Author - Karan Patel
 
 
-![174854](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/47f6c34a-eb78-453e-b51f-46e59d9712d2)
+![174854](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/47f6c34a-eb78-453e-b51f-46e59d9712d2)![732190](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/b85808ff-dd0a-448a-a5d3-a3e55a99c07e)![1199124](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/e7257e81-32cd-40e1-b653-7394251da809)![1183672](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/3a87a3da-4883-4de2-8d73-d7cdf5a8c90d)![919825](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/01656a2a-bfa9-40c0-ba8e-4152da247c86)
+
+
+
+
 
 
 
