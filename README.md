@@ -1,7 +1,7 @@
 # Sigma-WebDevelopment
 Sure, here's a sample README file for your web development repository:
 
-```markdown
+
 # 🌐 My Web Development Repository 🌐
 
 Welcome to my web development repository! This repository contains projects and code snippets related to HTML, CSS, JavaScript, React, and Node.js.
@@ -56,16 +56,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📫 Contact 📫
 
-Your Name - your@email.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-```
-Remember to replace `your_username`, `Project-Name`, `repo_name`, and `your@email.com` with your actual GitHub username, project name, repository name, and email respectively. Happy coding! 🎉
-
-Source: Conversation with Copilot, 6/2/2024
-(1) github.com. https://github.com/jstanleyf1985/ReplikaDiscordInterface/tree/8e7fcf198cc06c5591414fb19160d4edb0280569/README.md.
-(2) github.com. https://github.com/mmmsss211/SMCB-tutorial-HTML-CSS/tree/df44eacf3a1a3c6adf0c89eb52723475f38975b8/README.md.
+Your Name - mpkaranpatel001018@gmail.com
 <br>
 
 ![174854](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/47f6c34a-eb78-453e-b51f-46e59d9712d2)![732190](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/b85808ff-dd0a-448a-a5d3-a3e55a99c07e)![1199124](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/e7257e81-32cd-40e1-b653-7394251da809)![1183672](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/3a87a3da-4883-4de2-8d73-d7cdf5a8c90d)![919825](https://github.com/karanop001018/Sigma-WebDevelopment/assets/96780293/01656a2a-bfa9-40c0-ba8e-4152da247c86)
