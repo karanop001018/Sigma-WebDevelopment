@@ -1,7 +1,7 @@
 # 🌐 My Web Development Repository 🌐
 
 Welcome to my web development repository! This repository contains projects and code snippets related to HTML, CSS, JavaScript, React, and Node.js.
-```markdown
+
 ## 📂 Contents 📂
 
 1. **HTML** 📝: Basic structure of web pages and applications.
